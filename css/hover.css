@@ -20,6 +20,7 @@
 .contact:hover{
     background: #666666;
 }
-a{
-    text-decoration: none;
+
+.network:hover img{
+    opacity: 0.7;
 }
