@@ -35,6 +35,7 @@ body{
     border-radius: 8px;
 		font-size: 13px;
 		cursor: pointer;
+		border: 1px solid #333333;
 }
 .firstt li:first-child{
     border: 1px solid #33cc99;
