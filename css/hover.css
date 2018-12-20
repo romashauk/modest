@@ -1,0 +1,22 @@
+.firstt li:hover{
+    border: 1px solid #33cc99;
+}
+
+.firstt li:first-child:hover{
+    background: #33cc99;
+}
+#button button:hover{
+    background: #33cc99;
+}
+
+#firsticons a:hover{
+    background: #999999;
+}
+
+.network:hover .cont{
+    display: flex;
+}
+
+.contact:hover{
+    background: #666666;
+}
