@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 1130px;
+    margin: 0 auto;
+}
+                     /* HEADER */
+.header{
+    height: 80px;
+    background: #333333;
+    min-width: 1130px;
+}
+
+.header .wrapper{
+    display: flex;
+}
+
+ .wrapper ul{
+    display: flex;
+    width: 50%;
+    height: 80px;
+    color: #666666;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;    
+}
+
+ul li{
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+ul li:first-child{
+    border: 1px solid #33cc99;
+}
+
+.mod{
+    width: 50%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+                        /* BANNER */
+.banner{
+    background: url(../img/header.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    min-width: 1130px;
+}
+
+.banner .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+}
+#label{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#logan{
+    color: #cccccc;
+    font-size: 13px;
+    width: 50%;
+    padding-bottom: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+#button{
+    width: 100%;
+}
+#button button{
+    background: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
