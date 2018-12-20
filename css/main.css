@@ -30,6 +30,11 @@ body{
     align-items: center;    
 }
 
+.wrapper .firstt li a{
+	text-decoration: none;
+	color: #cccccc;
+}
+
 .firstt li{
     padding: 10px 8px;
     border-radius: 8px;

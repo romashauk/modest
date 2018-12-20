@@ -20,3 +20,6 @@
 .contact:hover{
     background: #666666;
 }
+a{
+    text-decoration: none;
+}
