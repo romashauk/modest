@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box;
+	box-sizing:border-box;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -10,9 +10,9 @@ body{
 }
                      /* HEADER */
 .header{
-    height: 80px;
     background: #333333;
-    min-width: 1150px;
+	min-width: 1150px;
+	min-height: 80px;
 }
 
 .header .wrapper{
@@ -52,20 +52,17 @@ body{
     align-items: center;
     display: flex;
 }
-                        /* BANNER */
-.banner{
+                        /* BENNER */
+.benner{
     background: url(../img/header.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 660px;
     width: 100%;
-    min-width: 1150px;
+	min-width: 1150px;
+	min-height: auto;
 }
 
-.banner .wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+.benner .wrapper{
     height: 100%;
 }
 #label{
@@ -73,7 +70,8 @@ body{
     color: white;
     text-transform: uppercase;
     width: 100%;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
+	padding-top: 225px;
 }
 
 .logan{
@@ -85,17 +83,18 @@ body{
 }
 
 #button{
-    width: 100%;
+	width: 100%;
+	margin-bottom: 250px;
 }
 
-#button button{
-    background: none;
+.button{
+	background: none;
     border: 2px solid white;
     text-transform: uppercase;
     color: white;
     font-size: 12px;
     padding: 12px 25px;
-    border-radius: 5px;
+    border-radius: 5px;	
 }
 
 #button button:nth-child(2){
@@ -105,7 +104,8 @@ body{
          /*ABOUT*/
 .about{
     background: #ffffff;
-    height:610px;
+	height:auto;
+	padding-bottom: 70px;
     width: 100%;
 	min-width: 1150px;
 	border-bottom: 1px solid #cccccc;
@@ -149,13 +149,13 @@ body{
 }
 
 #firsticons{
-	display: grid;
-	grid-template-columns: repeat(5,60px);
-	grid-template-rows: 60px;
-	grid-gap: 1px;
+	display: flex;
 }
 
 #firsticons a{
+	width: 50px;
+	height: 50px;
+	margin-left: 1px;
 	background: #cccccc;
 	color: white;
 	font-size: 25px;
@@ -233,7 +233,7 @@ body{
 	position: relative;
 }
 
-.network ul{
+.network div{
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -252,6 +252,22 @@ body{
 	justify-content: center;
 }
 
+.cont a li i{
+	color: white;
+}
+
+.cont a{
+	width: 50px;
+	height: 50px;
+	margin: 0 1px;
+	color: white;
+	background: #333366;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
 .cont{
 	display: none;
     list-style: none;
@@ -266,9 +282,9 @@ body{
 
 						/* WORK */
 .work{
-	height: 800px;
+	min-height: 900px;
 	width: 100%;
-	background: #333366;
+	background: #3a454d;
 	margin-top: 100px;
 	min-width: 1150px;
 }
@@ -296,7 +312,7 @@ body{
 	grid-template-columns: repeat(3,360px);
 	grid-template-rows: 265px 265px;
 	grid-gap: 30px;
-	margin-top: 60px;
+	margin-top: 58px;
 }
 
 .container{
@@ -330,6 +346,15 @@ body{
 	color: white;
 }
 
+.lovely{
+	margin-top: 0;
+	color: white;
+	border-left: 10px solid #666666;
+}
+.work .wrapper{
+	padding-top: 85px;
+}
+
 .container{
 	cursor: pointer;
 }
@@ -340,12 +365,6 @@ body{
 
 #show{
 	background: none;
-    border: 2px solid white;
-    text-transform: uppercase;
-    color: white;
-    font-size: 12px;
-    padding: 12px 25px;
-	border-radius: 5px;
 	margin: 0 auto;
 	display: block;
 	margin-top: 60px;
@@ -354,30 +373,42 @@ body{
 
                         /* HOVERS */
 .firstt li:hover{
-    border: 2px solid #33cc99;
+	border: 2px solid #666666;
+	transition: border .4s;
 }
 
 .firstt li:first-child:hover{
-    background: #33cc99;
+	background: #33cc99;
+	border: 2px solid #33cc99;
+	transition: background .3s;
 }
 #button button:hover{
-    background: #33cc99;
+	background: #33cc99;
+	transition: background .3s;
 }
 
 #firsticons a:hover{
-    background: #999999;
+	background: #999999;
+	transition: background .3s;
 }
 
-.network:hover .cont{
+.member:hover .cont{
     display: flex;
 }
 
-.contact:hover{
+.member:hover .info{
+	background: #3a454d;
+	color: white;
+	transition: background .3s, color .3s;
+}
+
+.cont a:hover{
     background: #666666;
 }
 
-.network:hover img{
-    opacity: 0.7;
+.member:hover img{
+	opacity: 0.7;
+	transition: opacity 2s;
 }
 
 .container:hover .hov{
@@ -386,5 +417,20 @@ body{
 
 #show:hover{
 	background: #33cc99;
+	transition: background .3s;
 }
+
+.container:hover{
+	transform: scale(1.1);
+	transition-delay: 0.2s;
+	transition-duration: 0.5s;
+}
+
+.number:hover{
+	transform: rotate(360deg);
+	transition: 1s;
+	transition-delay: 0.3s;
+}
+
+
 
