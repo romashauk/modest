@@ -107,9 +107,9 @@ body{
     background: #ffffff;
     height:610px;
     width: 100%;
-		min-width: 1150px;
-		border-bottom: 1px solid #cccccc;
-		display: flex;
+	min-width: 1150px;
+	border-bottom: 1px solid #cccccc;
+	display: flex;
 }
 
 .logan1{
@@ -208,7 +208,7 @@ body{
 	width: 100%;
 	min-width: 1150px;
 	background: #ffffff;
-	height: 600px;
+	height: 650px;
 }
 
 .team{
@@ -222,6 +222,7 @@ body{
 	height: 75px;
 	line-height: 1.5;
 	padding: 15px 20px;
+	font-size: 14px;
 
 }
 .info div{
@@ -253,8 +254,8 @@ body{
 
 .cont{
 	display: none;
-  list-style: none;
-  align-items: center;
+    list-style: none;
+    align-items: center;
 	justify-content: center;
 }
 
@@ -263,7 +264,90 @@ body{
 	font-size: 18px;
 }
 
-/* HOVERS */
+						/* WORK */
+.work{
+	height: 800px;
+	width: 100%;
+	background: #333366;
+	margin-top: 100px;
+	min-width: 1150px;
+}
+
+#lovely{
+	margin-top: 85px;
+	color: white;
+	padding-top: 90px;
+	border: none;
+	display: flex;
+}
+
+#lovely #silver{
+	height: 35px;
+	width: 10px;
+	background: #666666;
+}
+
+#lov{
+	padding-left: 10px;
+}
+
+#gridimg{
+	display: grid;
+	grid-template-columns: repeat(3,360px);
+	grid-template-rows: 265px 265px;
+	grid-gap: 30px;
+	margin-top: 60px;
+}
+
+.container{
+	position: relative;
+}
+
+.partner{
+	position: absolute;
+	top: 78%;
+	height: 60px;
+	width: 100%;
+	color: white;
+	background: #333333;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.plus{
+	color: white;
+	position: absolute;
+	top: 0;
+	font-size: 50px;
+	left: 48%;
+	top: 34%;
+}
+
+.container{
+	cursor: pointer;
+}
+
+.hov{
+	display: none;
+}
+
+#show{
+	background: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    padding: 12px 25px;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 60px;
+}
+
+
+                        /* HOVERS */
 .firstt li:hover{
     border: 2px solid #33cc99;
 }
@@ -290,3 +374,12 @@ body{
 .network:hover img{
     opacity: 0.7;
 }
+
+.container:hover .hov{
+	display: block;
+}
+
+#show:hover{
+	background: #33cc99;
+}
+
