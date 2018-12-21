@@ -325,6 +325,11 @@ body{
 	top: 34%;
 }
 
+.plus a{
+	text-decoration: none;
+	color: white;
+}
+
 .container{
 	cursor: pointer;
 }
