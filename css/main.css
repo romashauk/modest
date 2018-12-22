@@ -101,6 +101,25 @@ body{
     margin-left: 6px;
 }
 
+.slide{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-left: 9px;
+	cursor: pointer;
+}
+
+.slider{
+	display: flex;
+	padding-bottom: 30px;
+	justify-content: flex-end;
+}
+
+.cycle{
+	background: #ffffff;
+}
+
          /*ABOUT*/
 .about{
     background: #ffffff;
@@ -561,7 +580,7 @@ textarea{
 	margin-top: 40px;
 }
 .networks{
-	width: 15%;
+	width: 200px;
 }
 
 .networks .firsticons a{
@@ -584,11 +603,6 @@ textarea{
 }
 #button button:hover{
 	background: #33cc99;
-	transition: background .3s;
-}
-
-#firsticons a:hover{
-	background: #999999;
 	transition: background .3s;
 }
 
@@ -662,6 +676,17 @@ textarea{
 
 .networks .firsticons a:hover{
 	color: yellow;
+}
+
+.left .firsticons a:hover{
+	background: #999999;
+	transition: background .3s;
+}
+
+.slide:hover{
+	transform: scale(1.5);
+	transition-duration: 0.5s;
+
 }
 
 
