@@ -411,6 +411,7 @@ body{
 .features{
 	min-height: 730px;
 	background: #3a454d;
+	min-width: 1150px;
 }
 
 .features .wrapper{
