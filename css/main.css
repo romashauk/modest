@@ -58,8 +58,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-	min-width: 1150px;
-	min-height: auto;
+	min-width: 1150px;	
 }
 
 .benner .wrapper{
@@ -84,7 +83,7 @@ body{
 
 #button{
 	width: 100%;
-	margin-bottom: 250px;
+	padding-bottom: 200px;
 }
 
 .button{
