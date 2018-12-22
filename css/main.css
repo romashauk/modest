@@ -148,11 +148,11 @@ body{
 	margin-bottom: 47px;
 }
 
-#firsticons{
+.firsticons{
 	display: flex;
 }
 
-#firsticons a{
+.firsticons a{
 	width: 50px;
 	height: 50px;
 	margin-left: 1px;
@@ -440,7 +440,136 @@ body{
 	color: #cccccc;
 	line-height: 1.5;
 }
+                         /* TOUCH */
+.touch{
+	min-width: 1150px;
+	width: 100%;
+	min-height: 800px;
+	background: #ffffff;
+}
 
+#map{
+	margin-top: 60px;
+	background: url(../img/map.png) no-repeat;
+	background-size: cover;
+	min-height: 350px;
+	width: 100%;
+	min-width: 1150px;
+}
+
+.stay{
+	margin-top: 70px;
+}
+
+.contactinfo{
+	width: 50%;
+}
+
+.contactinfo .topic{
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+.darker{
+	color: #999999;
+	line-height: 1.7;
+}
+
+#marg{
+	margin-top: 27px;
+}
+.form{
+	width: 50%;
+	background: white;
+	padding-left: 30px;
+	margin-top: -135px;
+	margin-left: 47px;
+}
+
+.mean{
+	display: flex;
+}
+
+.fieldset{
+	display: flex;
+}
+
+.top{
+	width: 50%;
+	margin-top: 30px;
+}
+
+.top input{
+	width: 90%;
+	background: #cccccc;
+	border: none;
+	height: 44px;
+	border-radius: 4px;
+}
+
+.top label{
+	color: #999999;
+	display: block;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 5px;
+}
+
+.bottom{
+	width: 100%;
+}
+
+.bottom label{
+	color: #999999;
+	display: block;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	font-size: 13px;
+	padding-left: 5px;
+}
+textarea{
+	width: 95%;
+	height: 160px;
+	background: #cccccc;
+	border: none;
+	border-radius: 4px;
+}
+.send{
+	margin-top: 23px;
+	background: #33cc99;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+}
+
+						/* FOOTER */
+.footer{
+	background: #3a454d;
+	min-width: 1150px;
+	width: 100%;
+	min-height: 95px;
+}
+.footer .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .wrapper .subscribe{
+	color: white;
+	margin-top: 40px;
+}
+.networks{
+	width: 15%;
+}
+
+.networks .firsticons a{
+	margin-top: 20px;
+	background: #3a454d;
+	font-size: 20px;
+	margin-left: 20px;
+}
 
                         /* HOVERS */
 .firstt li:hover{
@@ -519,5 +648,20 @@ body{
 	transition-delay: 0.2s;
 }
 
+.send:hover{
+	box-shadow: 3px 3px 9px 6px #cccccc;
+}
+
+.top input:hover{
+	box-shadow: 2px 2px 7px 4px #666666;
+}
+
+.bottom textarea:hover{
+	box-shadow: 2px 2px 7px 4px #666666;
+}
+
+.networks .firsticons a:hover{
+	color: yellow;
+}
 
 
