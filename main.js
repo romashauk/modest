@@ -7,22 +7,20 @@ buttons[2].onclick= function(){
     buttons[1].classList.remove("cycle");
     buttons[0].classList.remove("cycle");
     buttons[2].classList.add("cycle");
-    benner.style.background = "url(" +background[2]+") no-repeat";
+    benner.style.backgroundImage = "url(" +background[2]+")";
 }
 
 buttons[0].onclick= function(){
     buttons[1].classList.remove("cycle");
     buttons[2].classList.remove("cycle");
     buttons[0].classList.add("cycle");
-    benner.style.background = "url(" +background[0]+") no-repeat";
+    benner.style.backgroundImage = "url(" +background[0]+")";
 }
 
 buttons[1].onclick= function(){
     buttons[0].classList.remove("cycle");
     buttons[2].classList.remove("cycle");
     buttons[1].classList.add("cycle");
-    benner.style.background = "url(" +background[1]+") no-repeat";
-    benner.style.backgroundSize = "cover";
-    benner.style.backgroundAttachment = "fixed";
+    benner.style.backgroundImage = "url(" +background[1]+")";
 
 }

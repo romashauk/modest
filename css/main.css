@@ -519,7 +519,7 @@ body{
 
 .top input{
 	width: 90%;
-	background: #cccccc;
+	background: #eaeef1;
 	border: none;
 	height: 44px;
 	border-radius: 4px;
@@ -550,7 +550,7 @@ body{
 textarea{
 	width: 95%;
 	height: 160px;
-	background: #cccccc;
+	background: #eaeef1;
 	border: none;
 	border-radius: 4px;
 }
@@ -652,7 +652,6 @@ textarea{
 }
 .pack:hover .topic{
 	border-bottom: 2px solid #cccccc;
-	transition-delay: .3s;
 }
 
 .information:hover{
