@@ -65,7 +65,7 @@
         padding-left: 29px;
     }
     .number{
-        margin: 20px auto;
+        margin: 40px auto;
     }
     .text{
         text-align: center;
@@ -92,7 +92,7 @@
         margin-bottom: 30px;
     }
     .pack{
-        width: 50%;
+        width: 100%;
 
     }
     .firstline{
@@ -139,5 +139,8 @@
     }
     .information{
         width: 100%;
+    }
+    .about{
+        padding-bottom: 100px;
     }
 }
