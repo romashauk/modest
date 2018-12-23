@@ -20,4 +20,25 @@
         flex-wrap: wrap;
         display: flex;
     }
+    .benner{
+        min-width: 320px;
+    }
+    #label{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .logan{
+        width: 100%;
+        text-align: center;
+        padding: 0px 5px;
+    }
+    #button{
+        margin-top: 30px;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .slider{
+        justify-content: center
+    }
 }
