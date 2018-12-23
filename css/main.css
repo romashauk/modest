@@ -635,7 +635,7 @@ textarea{
 }
 
 .container:hover{
-	transform: scale(1.1);
+	transform: scale(.9);
 	transition-delay: 0.2s;
 	transition-duration: 0.5s;
 }
@@ -647,7 +647,7 @@ textarea{
 }
 
 .pack:hover{
-	transform: scale(1.2);
+	transform: scale(.9);
 	transition: 1s;
 	cursor: pointer;
 }
@@ -656,7 +656,7 @@ textarea{
 }
 
 .information:hover{
-	transform: scale(1.1);
+	transform: scale(.9);
 	transition-duration: 1s;
 	transition-delay: 0.2s;
 }
