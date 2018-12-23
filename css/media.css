@@ -26,7 +26,7 @@
         position: absolute;
         left: 50%;
         margin-left: -15px;
-        top: 10%;
+        top: 8%;
         cursor: pointer;
     }
     .menu:hover{
@@ -42,7 +42,7 @@
     .mod{
         width: 100%;
         justify-content: center;
-        height: 100px;
+        height: 60px;
     }
     .firstt li{
         width: 100%;
@@ -56,6 +56,8 @@
         margin: 0 auto;
         flex-wrap: wrap;
         display: none;
+        margin-top: 40px;
+
     }
     #label{
         text-align: center;
