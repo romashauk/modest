@@ -1,14 +1,29 @@
 @media screen and (max-width:760px){
+    .header{
+        min-height: 330px;
+    }
+    #label{
+        font-size: 20px;
+    }
+    .logan{
+        font-size: 13px;
+    }
     .wrapper{
         flex-wrap: wrap;
         display: flex;
     }
-    .header{
-        height: auto;
+    .slider{
+        width: 100%;
+    }
+    .logan1{
+        font-size: 24px;
     }
     .mod{
         width: 100%;
         justify-content: center;
+    }
+    .firstt li{
+        width: 100%;
     }
     .header .wrapper{
         display: flex;
@@ -65,7 +80,8 @@
         padding-left: 29px;
     }
     .number{
-        margin: 40px auto;
+        margin: 60px auto;
+        margin-bottom: 10px;
     }
     .text{
         text-align: center;
@@ -142,5 +158,8 @@
     }
     .about{
         padding-bottom: 100px;
+    }
+    .send{
+        margin-bottom: 20px;
     }
 }
