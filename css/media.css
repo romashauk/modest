@@ -31,10 +31,6 @@
         top: 8%;
         cursor: pointer;
     }
-    .menu:hover{
-        transform: rotate(180deg);
-        transition-duration: 1s;
-    }
     .slider{
         width: 100%;
     }
