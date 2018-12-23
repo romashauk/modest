@@ -5,13 +5,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
-    width: 1130px;
+	max-width: 1150px;
+	padding: 0 10px 0 10px;
     margin: 0 auto;
 }
                      /* HEADER */
 .header{
     background: #333333;
-	min-width: 1150px;
+	width: 100%;
 	min-height: 80px;
 }
 
@@ -57,8 +58,7 @@ body{
     background: url(../img/header.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
-	min-width: 1150px;	
+    width: 100%;	
 }
 
 .benner .wrapper{
@@ -125,7 +125,6 @@ body{
 	height:auto;
 	padding-bottom: 70px;
     width: 100%;
-	min-width: 1150px;
 	border-bottom: 1px solid #cccccc;
 	display: flex;
 }
@@ -224,7 +223,6 @@ body{
 
 .ourteam{
 	width: 100%;
-	min-width: 1150px;
 	background: #ffffff;
 	height: 650px;
 }
@@ -304,7 +302,6 @@ body{
 	width: 100%;
 	background: #3a454d;
 	margin-top: 100px;
-	min-width: 1150px;
 }
 
 #lovely{
@@ -392,7 +389,6 @@ body{
 .services{
 	min-height: 810px;
 	background: #ffffff;
-	min-width: 1150px;
 }
 
 .firstline{
@@ -429,7 +425,6 @@ body{
 .features{
 	min-height: 730px;
 	background: #3a454d;
-	min-width: 1150px;
 }
 
 .features .wrapper{
@@ -460,7 +455,6 @@ body{
 }
                          /* TOUCH */
 .touch{
-	min-width: 1150px;
 	width: 100%;
 	min-height: 800px;
 	background: #ffffff;
@@ -565,7 +559,6 @@ textarea{
 						/* FOOTER */
 .footer{
 	background: #3a454d;
-	min-width: 1150px;
 	width: 100%;
 	min-height: 95px;
 }

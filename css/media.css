@@ -1,11 +1,10 @@
 @media screen and (max-width:760px){
     .wrapper{
-        width: 320px;
-        min-height: auto;
+        flex-wrap: wrap;
+        display: flex;
     }
     .header{
-        min-width: 320px;
-        min-height: auto;
+        height: auto;
     }
     .mod{
         width: 100%;
@@ -19,9 +18,6 @@
         width: 100%;
         flex-wrap: wrap;
         display: flex;
-    }
-    .benner{
-        min-width: 320px;
     }
     #label{
         text-align: center;
@@ -39,6 +35,109 @@
         padding-bottom: 50px;
     }
     .slider{
-        justify-content: center
+        justify-content: center;
+    }
+    .about .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex .logan{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left{
+        width: 100%;
+    }
+    .firsticons{
+        width: 100%;
+        justify-content: center;
+    }
+    .logan1{
+        margin: 30px auto;
+    }
+    .right{
+        width: 100%;
+    }
+
+    .pad{
+        margin-left: 0;
+        padding-left: 29px;
+    }
+    .number{
+        margin: 20px auto;
+    }
+    .text{
+        text-align: center;
+    }
+    .name{
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .team{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .member{
+        margin-bottom: 40px; 
+    }
+    #gridimg{
+        grid-template-columns: repeat(auto-fit, 100%);
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #show{
+        margin-bottom: 30px;
+    }
+    .pack{
+        width: 50%;
+
+    }
+    .firstline{
+        flex-wrap: wrap;
+    }
+    .bott{
+        margin-bottom: 50px;
+    }
+    #features{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #features:last-child{
+        margin-bottom: 40px;
+    }
+    .features .wrapper{
+        padding-top: 30px;
+    }
+    #map{
+        display: none;
+    }
+    .contactinfo{
+        width: 100%;
+    }
+    .mean{
+        flex-wrap: wrap;
+    }
+    .form{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .subscribe{
+        text-align: center;
+    }
+    .networks{
+        width: 100%;
+    }
+    .container img{
+        width: 100%;
+    }
+    .information img{
+        width: 100%;
+    }
+    .information{
+        width: 100%;
     }
 }
