@@ -292,6 +292,10 @@ body{
 	justify-content: center;
 }
 
+.menu{
+	display: none;
+}
+
 .contact i{
 	color: white;
 	font-size: 18px;

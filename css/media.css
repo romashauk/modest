@@ -12,6 +12,27 @@
         flex-wrap: wrap;
         display: flex;
     }
+    .menu{
+        display: block;
+        width: 30px;
+        height: 30px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        top: 10%;
+        cursor: pointer;
+    }
+    .menu:hover{
+        transform: rotate(180deg);
+        transition-duration: 1s;
+    }
     .slider{
         width: 100%;
     }
@@ -21,6 +42,7 @@
     .mod{
         width: 100%;
         justify-content: center;
+        height: 100px;
     }
     .firstt li{
         width: 100%;
@@ -30,13 +52,15 @@
         flex-wrap: wrap;
     }
     .wrapper .firstt{
-        width: 100%;
+        width: 30%;
+        margin: 0 auto;
         flex-wrap: wrap;
-        display: flex;
+        display: none;
     }
     #label{
         text-align: center;
-        padding-top: 50px;
+        padding-top: 0px;
+        margin-top: -190px;
     }
     .logan{
         width: 100%;
