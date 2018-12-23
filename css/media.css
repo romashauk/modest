@@ -228,6 +228,9 @@
         flex-wrap: wrap;
         display: flex;
     }
+    .wrapper .firstt{
+        display: flex;
+    }
     .slider{
         width: 100%;
     }
