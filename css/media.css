@@ -1,7 +1,4 @@
 @media screen and (max-width:760px){
-    .header{
-        min-height: 330px;
-    }
     #label{
         font-size: 20px;
     }
@@ -28,7 +25,7 @@
         position: absolute;
         left: 50%;
         margin-left: -15px;
-        top: 8%;
+        top: 7%;
         cursor: pointer;
     }
     .slider{
@@ -59,8 +56,7 @@
     }
     #label{
         text-align: center;
-        padding-top: 0px;
-        margin-top: -190px;
+        padding-top: 50px;
     }
     .logan{
         width: 100%;
@@ -228,7 +224,7 @@
         flex-wrap: wrap;
         display: flex;
     }
-    .wrapper .firstt{
+    .wrapper .first{
         display: flex;
     }
     .slider{

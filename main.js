@@ -34,14 +34,12 @@ menu.onclick = function(){
     i++;
     if(i%2==1){
         list.style.display="flex";
-        label.style.display = "none";
         menu.innerText = "-";
         menu.style.transform = "rotate(180deg)";
         menu.style.transitionDuration = "1s";
     }
     if(i%2==0){
         list.style.display="none";
-        label.style.display = "block";
         menu.innerText = "+";
         menu.style.transform = "rotate(-180deg)";
         menu.style.transitionDuration = "1s";
